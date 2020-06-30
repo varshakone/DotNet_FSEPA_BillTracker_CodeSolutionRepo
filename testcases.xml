@@ -1,107 +1,83 @@
 <?xml version="1.0"?>
 <ArrayOfCases xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <cases>
-    <test-case-type>BusinessLogic</test-case-type>
-    <name>BusinessTestFor_GenerateBill_Success</name>
-    <expected-output>False</expected-output>
-    <weight>2</weight>
-    <mandatory>False</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>BusinessLogic</test-case-type>
-    <name>BusinessTestFor_ListOfPaidAndUnpaidBills</name>
-    <expected-output>False</expected-output>
-    <weight>2</weight>
-    <mandatory>False</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>BusinessLogic</test-case-type>
-    <name>BusinessTestFor_ListBillsByDueDate</name>
-    <expected-output>False</expected-output>
-    <weight>2</weight>
-    <mandatory>False</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
     <test-case-type>Boundary</test-case-type>
     <name>BoundaryTestFor_BillDueDateAsync</name>
-    <expected-output>False</expected-output>
+    <expected-output>True</expected-output>
     <weight>2</weight>
-    <mandatory>False</mandatory>
+    <mandatory>True</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
     <test-case-type>Boundary</test-case-type>
     <name>BoundaryTestFor_BillDateOfEntryAsync</name>
-    <expected-output>False</expected-output>
+    <expected-output>True</expected-output>
     <weight>2</weight>
-    <mandatory>False</mandatory>
+    <mandatory>True</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
     <test-case-type>Boundary</test-case-type>
     <name>BoundaryTestFor_BillTitleAsync</name>
-    <expected-output>False</expected-output>
-    <weight>0</weight>
-    <mandatory>False</mandatory>
+    <expected-output>True</expected-output>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
     <test-case-type>Boundary</test-case-type>
     <name>BoundaryTestFor_BillAmountAsync</name>
-    <expected-output>False</expected-output>
+    <expected-output>True</expected-output>
     <weight>2</weight>
-    <mandatory>False</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Exceptional</test-case-type>
-    <name>ExceptionTestFor_ListOfPaidAndUnpaidBillsNotFound</name>
-    <expected-output>False</expected-output>
-    <weight>2</weight>
-    <mandatory>False</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Exceptional</test-case-type>
-    <name>ExceptionTestFor_ListBillsByDueDate_NotFound</name>
-    <expected-output>False</expected-output>
-    <weight>2</weight>
-    <mandatory>False</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>Exceptional</test-case-type>
-    <name>ExceptionTestFor_GenerateBill_Null_Failure</name>
-    <expected-output>False</expected-output>
-    <weight>2</weight>
-    <mandatory>False</mandatory>
+    <mandatory>True</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
     <test-case-type>Functional</test-case-type>
     <name>FunctionalTestFor_ListOfPaidAndUnpaidBills</name>
-    <expected-output>False</expected-output>
+    <expected-output>True</expected-output>
     <weight>2</weight>
-    <mandatory>False</mandatory>
+    <mandatory>True</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
     <test-case-type>Functional</test-case-type>
     <name>FunctionallTestFor_GenerateBill_Success</name>
-    <expected-output>False</expected-output>
+    <expected-output>True</expected-output>
     <weight>2</weight>
-    <mandatory>False</mandatory>
+    <mandatory>True</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
     <test-case-type>Functional</test-case-type>
     <name>FunctionalTestFor_ListBillsByDueDate</name>
-    <expected-output>False</expected-output>
+    <expected-output>True</expected-output>
     <weight>2</weight>
-    <mandatory>False</mandatory>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Exceptional</test-case-type>
+    <name>ExceptionTestFor_ListOfPaidAndUnpaidBillsNotFound</name>
+    <expected-output>True</expected-output>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Exceptional</test-case-type>
+    <name>ExceptionTestFor_ListBillsByDueDate_NotFound</name>
+    <expected-output>True</expected-output>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>Exceptional</test-case-type>
+    <name>ExceptionTestFor_GenerateBill_Null_Failure</name>
+    <expected-output>True</expected-output>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
@@ -137,51 +113,75 @@
     <desc>na</desc>
   </cases>
   <cases>
-    <test-case-type>BusinessLogic</test-case-type>
-    <name>BusinessTestFor_RegisterNewUser_Success</name>
-    <expected-output>False</expected-output>
-    <weight>2</weight>
-    <mandatory>False</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
-    <test-case-type>BusinessLogic</test-case-type>
-    <name>BusinessTestFor_ValidUserFound</name>
-    <expected-output>False</expected-output>
-    <weight>2</weight>
-    <mandatory>False</mandatory>
-    <desc>na</desc>
-  </cases>
-  <cases>
     <test-case-type>Exception</test-case-type>
     <name>ExceptionTestFor_RegisterNewUser_Null_Failure</name>
-    <expected-output>False</expected-output>
+    <expected-output>True</expected-output>
     <weight>2</weight>
-    <mandatory>False</mandatory>
+    <mandatory>True</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
     <test-case-type>Exception</test-case-type>
     <name>ExceptionTestFor_UserNotFound</name>
-    <expected-output>False</expected-output>
+    <expected-output>True</expected-output>
     <weight>2</weight>
-    <mandatory>False</mandatory>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>BusinessLogic</test-case-type>
+    <name>BusinessTestFor_GenerateBill_Success</name>
+    <expected-output>True</expected-output>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>BusinessLogic</test-case-type>
+    <name>BusinessTestFor_ListOfPaidAndUnpaidBills</name>
+    <expected-output>True</expected-output>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>BusinessLogic</test-case-type>
+    <name>BusinessTestFor_ListBillsByDueDate</name>
+    <expected-output>True</expected-output>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
     <test-case-type>Functional</test-case-type>
     <name>functionTestFor_ValidUserFound</name>
-    <expected-output>False</expected-output>
+    <expected-output>True</expected-output>
     <weight>2</weight>
-    <mandatory>False</mandatory>
+    <mandatory>True</mandatory>
     <desc>na</desc>
   </cases>
   <cases>
     <test-case-type>Functional</test-case-type>
     <name>FunctionalTestFor_RegisterNewUser</name>
-    <expected-output>False</expected-output>
+    <expected-output>True</expected-output>
     <weight>2</weight>
-    <mandatory>False</mandatory>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>BusinessLogic</test-case-type>
+    <name>RegisterNewUser_Success</name>
+    <expected-output>True</expected-output>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases>
+    <test-case-type>BusinessLogic</test-case-type>
+    <name>BusinessTestFor_ValidUserFound</name>
+    <expected-output>True</expected-output>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
     <desc>na</desc>
   </cases>
 </ArrayOfCases>
